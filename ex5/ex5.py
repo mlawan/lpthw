@@ -1,7 +1,7 @@
 print("Marry has a little lamp.")
 print("its fleece was white as {}." .format('snow'))
 print("and everywhere that mary went")
-print("." *20 ) # i dont know for u guys'
+print("." *200 ) # i dont know for u guys'
 
 end1 ="C"
 end2 ="h"
