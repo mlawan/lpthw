@@ -1,0 +1,18 @@
+from sys import agrv
+script, user_name = argv
+prompt ='>'
+print(f"Hi {user_name} , I'm the {script} sript")
+print(f"{user_name} I want to ask you some question?")
+print(f" do you celebrate valentine {user_name}")
+likes = input(prompt)
+
+print(f"where do u live {user_name}")
+lives =input(prompt)
+
+print(f"What kind of computer do u user {user_name}?")
+computer =input(prompt)
+print(f'''
+Alright, {user_name}, you like {likes} about liking me\n
+You live in {lives}. not \t sure where yaht is\n
+And you have a {computer} computer. Nice\n
+''')

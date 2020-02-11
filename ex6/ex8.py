@@ -1,3 +1,5 @@
 print("what's your name?", end = ' ')
-name = input()
-print("hi Mr. ", name)
+name = input("enter name")
+print("name of your school?", end = '')
+school = input("Enter school name")
+print("hi Mr. ", name, "You school at ", school)
