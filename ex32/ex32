@@ -1,0 +1,6 @@
+the_count = [1, 2, 3, 4, 5]
+fruits = ['apples', 'oranges', 'pears', 'mango', 'cocumber']
+change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
+
+for number in the_count:
+print(f"This is the count: {number}")
