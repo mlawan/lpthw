@@ -6,7 +6,7 @@ stuff = ten_things.split(' ')
 more_stuff = [ "Day", "NIght", "SOng", "Frisbee", "Corn", "Banana", "Girl", "Boy"]
 
 while len(stuff) != 10:
-    next_one = more_stuff.pop()
+    next_one = pop(more_stuff)
     print("Adding:", next_one)
     stuff.append(next_one)
     print(f"There are {len(stuff)} items now.")
@@ -18,4 +18,4 @@ print("first stuff", stuff[1])
 print("second stuff", stuff[-2])
 print("show me stuff.pop()", stuff.pop())
 print(' '. join(stuff), "join command")
-print('#'.join(stuff[3:-2]))
+print('#'.join(stuff[3:5]))
