@@ -18,5 +18,9 @@ while i <= 6 and not x > 8:
     b = b + 1
     print(f"{a}. Numbers row{a}:{numbers}")
     print(f" Users row{a}:{users}")
-    #print(f"At the bottom i is {i}")
-    #print(f"At the bottom x is {x}")
+    print(f"At the bottom i is {i}")
+    print(f"At the bottom x is {x}")
+
+print("The Numbe")
+for nums in users:
+    print(nums)
